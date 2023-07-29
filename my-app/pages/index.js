@@ -4,6 +4,7 @@ import { Contract, providers, utils } from "ethers";
 import React, { useEffect, useState, useRef } from "react";
 import Web3Modal from "web3modal";
 import { LW3PunksAddress, LW3PunksABI } from "@/constants";
+// import {} from "../public/LW3Punks";
 
 export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
@@ -165,7 +166,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./LW3punks/1.png" />
+          <img className={styles.image} src="../LW3Punks/1.png" />
         </div>
       </div>
       <footer className={styles.footer}>Made with &#10084; by LW3Punks</footer>
